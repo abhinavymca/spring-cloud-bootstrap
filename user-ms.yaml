@@ -4,3 +4,8 @@ test:
     - 11
     - 21
     - 31
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://netflix-eureka-server/eureka
